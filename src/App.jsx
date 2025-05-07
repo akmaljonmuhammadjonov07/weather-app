@@ -5,7 +5,7 @@ import WeatherCard from './Components/WeatherCard';
 
 import video from './video.mp4';
 import { WifiOff } from 'lucide-react';
-import SearchBar from './Components/Searchbar';
+import SearchBar from './Components/Search';
 export default function App() {
 	const [weather, setWeather] = useState(null);
 	const [loading, setLoading] = useState(false);
