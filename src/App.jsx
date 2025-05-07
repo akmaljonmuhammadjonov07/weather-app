@@ -79,7 +79,7 @@ export default function App() {
 					<div className='mt-6'>
 						<p className='text-center mt-4 flex justify-center gap-2'>
 							<WifiOff />
-							No Internet connection
+							No Inthernet connection
 						</p>
 					</div>
 				)}
