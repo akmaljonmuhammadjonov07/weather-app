@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 import axios from 'axios';
 import WeatherCard from './Components/WeatherCard';
-import SearchBar from './Components/Searchbar.jsx';
+
 import video from './video.mp4';
 import { WifiOff } from 'lucide-react';
+import SearchBar from './Components/Searchbar';
 export default function App() {
 	const [weather, setWeather] = useState(null);
 	const [loading, setLoading] = useState(false);
