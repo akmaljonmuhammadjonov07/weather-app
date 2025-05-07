@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Searchbar({ fetchWeather }) {
+export default function SearchBar({ fetchWeather }) {
 	const [city, setCity] = useState('');
 
 	const handleSubmit = e => {
