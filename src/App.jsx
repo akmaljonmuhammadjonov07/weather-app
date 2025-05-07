@@ -68,7 +68,7 @@ export default function App() {
 				<source src={video} type='video/mp4' />
 				Your browser does not support the video tag
 			</video>
-			<div className='absolute top-0 left-0 w-full h-full bg-black/20 z-1'></div>
+			<div className='absolute top-0 left-0 w-full h-full bg-black/20 z-10'></div>
 			<div className='bg-black/70 text-white rounded-lg shadow-lg p-8 max-w-md w-full sm:w-auto max-sm:w-auto z-10'>
 				<h1 className='text-3xl font-bold text-center mb-6'>Weather App</h1>
 				<Searchbar fetchWeather={fetchWeather} />
